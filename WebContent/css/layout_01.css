@@ -1,55 +1,112 @@
 @charset "UTF-8";
 
+
 /************************header************************************/
 header{
 	width:100%;
 	height:40px;
-	border-bottom:1px solid gray;
+	display:inline;
+	background-color:yellow;
+}
+
+
+#header_nav{
+	height:40px;
+}
+
+#div_logo{
+	height:40px;
+	display:inline-block;
+}
+
+#img_logo{
+	padding:9px;
+}
+
+
+#div_search{
+	display:inline-block;
+	margin-left:105px;
+	height:20px;
+	width:1300px;
+	background-color:green;
+	padding:10px;
+}
+
+#in_search{
+	width: 350px;
+	height:16px;
+	resize: none;
+}
+
+#search_button{
+	width:100px;
+	height:20px;
+}
+
+#div_buttons{
+	float:right;
+	height:20px;
+	width:335px;
+	background-color:blue;
+	padding:10px;
+}
+
+.header_button{
+	height:20px;
 }
 
 /************************main************************************/
 section{
+	border-top:1px solid gray;
 	width:100%;
 	height:898px;
+}
+
+#main_top{
+	width:100%;
+	height:100px;
 }
 
 #upgrade{
 	width:100%;
 	height:50px;
-	border-bottom:1px solid gray;
 }
 #control{
 	width:100%;
 	height:50px;
-	border-bottom:1px solid gray;
+	border-top:1px solid gray;
 }
-#main{
+#main_bottom{
 	width:100%;
-	height:797px;
+	height:798px;
+	border-top:1px solid gray;
 }
 #document{
 	float:left;
-	width:200px;
+	width:219px;
 	height:100%;
-
+/* 	background-color:green; */
 }
 #main_right{
-	float:right;
-	width:1720px;
+	float:left;
+	width:1699px;
 	height:100%;
+/* 	background-color:cyan; */
+	border-left:2px solid gray;
 }
 #models{
-	float:left;
-	width:1700px;
+	float:right;
+	width:1658px;
 	height:100%;
-	border-left:1px solid gray;
+	
 	border-right:1px solid gray;
 }
 #model_info{
-
 	float:right;
-	width:20px;
+	width:40px;
 	height:100%;
+/* 	background-color:green; */
 
 }
 /************************footer************************************/
